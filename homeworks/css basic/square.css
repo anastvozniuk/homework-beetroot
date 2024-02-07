@@ -1,0 +1,56 @@
+/* Global */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* for squares */
+.red-square,
+.green-square,
+.blue-square {
+  height: 50px;
+  width: 50px;
+  margin-left: 60px;
+  margin-top: 26px;
+  margin-bottom: 5px;
+}
+/* red */
+.red-square {
+  background-color: #ff0000;
+}
+/* green */
+.green-square {
+  background-color: #00ff00;
+}
+/* blue */
+.blue-square {
+  background-color: #0000ff;
+}
+/* circle */
+.circle-gray {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 60px;
+  margin-bottom: 10px;
+  background-color: #c3c3c3;
+}
+/* text1 */
+.paragraf {
+  margin-right: 660px;
+  margin-left: 50px;
+}
+/* text2 */
+.text {
+  margin-right: 660px;
+  margin-left: 50px;
+}
+/* h2 */
+.head {
+  color: #000;
+  margin-right: 660px;
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
