@@ -1,0 +1,75 @@
+/* Global */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Body */
+body {
+  background-color: #232b2b;
+}
+
+/* header */
+header {
+  text-align: center;
+  background-color: #353839;
+  margin-top: 0;
+  color: rgb(172, 18, 18);
+  padding: 30px;
+}
+
+/* Blocks */
+.blocks {
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  border: 5px solid #232b2b;
+  margin: 60px auto;
+  width: 500px;
+  gap: 20px;
+}
+
+/* Block */
+.block {
+  background-color: #6e7f80;
+  display: block;
+  border: solid #d3d3d3;
+  margin-bottom: auto;
+  padding: 10px;
+}
+
+.block2 {
+  background-color: #353839;
+  border: 5x solid white;
+  margin: 60px auto;
+  padding: 10px;
+  width: 500px;
+  height: 50px;
+  gap: 20px;
+  text-align: center;
+  color: white;
+}
+.span {
+  text-align: center;
+}
+
+.block:hover {
+  background-color: #3b444b;
+}
+.block:active {
+  background-color: brown;
+}
+.block:last-child {
+  margin-left: 0;
+}
+.block:nth-child(2n) {
+  background-color: #536872;
+}
+
+.checkbox:checked + .text {
+  text-decoration: line-through;
+}
+
+.text {
+  font-size: 16px;
+  color: white;
+}
