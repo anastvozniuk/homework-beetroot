@@ -32,11 +32,11 @@ header {
 .block {
   background-color: #6e7f80;
   display: block;
-  border: solid #d3d3d3;
   margin-bottom: auto;
   padding: 10px;
 }
 
+/* Block 2 */
 .block2 {
   background-color: #353839;
   border: 5x solid white;
@@ -48,27 +48,44 @@ header {
   text-align: center;
   color: white;
 }
+
+/* span */
 .span {
   text-align: center;
 }
 
+/* Block hover */
 .block:hover {
   background-color: #3b444b;
+  border-bottom: 3px solid white;
 }
+
+/* block active */
 .block:active {
   background-color: brown;
 }
+
+/* block last child ML */
 .block:last-child {
   margin-left: 0;
 }
+
+/* block color for child 2 */
 .block:nth-child(2n) {
   background-color: #536872;
 }
 
+/* block activi for 2n child */
+.block:nth-child(2n):active {
+  background-color: brown;
+}
+
+/* checkbox */
 .checkbox:checked + .text {
   text-decoration: line-through;
 }
 
+/* text */
 .text {
   font-size: 16px;
   color: white;
