@@ -8,6 +8,7 @@
 /* Body */
 body {
   background-color: #232b2b;
+  min-height: 100vh;
 }
 
 /* header */
@@ -21,8 +22,7 @@ header {
 
 /* Blocks */
 .blocks {
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-  border: 5px solid #232b2b;
+  /* border: 5px solid #232b2b; */
   margin: 60px auto;
   width: 500px;
   gap: 20px;
@@ -30,7 +30,9 @@ header {
 
 /* Block */
 .block {
+  border-bottom: 2px solid transparent;
   background-color: #6e7f80;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   display: block;
   margin-bottom: auto;
   padding: 10px;
@@ -73,9 +75,13 @@ header {
 /* block color for child 2 */
 .block:nth-child(2n) {
   background-color: #536872;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-/* block activi for 2n child */
+.block:nth-child(2n):hover{
+  background-color: #3b444b;
+}
+/* block active for 2n child */
 .block:nth-child(2n):active {
   background-color: brown;
 }
