@@ -30,6 +30,7 @@ header {
 
 /* Block */
 .block {
+  border-top: 2px solid transparent; ;
   border-bottom: 2px solid transparent;
   background-color: #6e7f80;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
